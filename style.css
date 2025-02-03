@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pash.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+}
+
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.game-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.game-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.game-card select, .game-card button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.game-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.game-card button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer-content a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
